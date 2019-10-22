@@ -17,6 +17,8 @@
 //The timer stops when all questions have been answered or the timer reaches 0.
 
 //After the game ends, the user can save their initials and score to a highscores view using local storage.
+document.querySelector(".container1").style.display = "none";
+
 var startButton = document.querySelector("#start-button");
 var timeEl = document.getElementById("timeLeft")
 
@@ -34,6 +36,23 @@ function startTimer(){
   }, 1000)
 };
 
+startButton.addEventListener("click", function(){nextQuestion()});
+
+function nextQuestion() {
+  var x = document.querySelector(".container0");
+  var y = document.querySelector(".container1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+
+}
 
 
 //Should I be switching through html pages each question?
