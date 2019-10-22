@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="highscores.html">Highscores</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled time" id="timeLeft" href="#" tabindex="-1" aria-disabled="true">Time:</a>
+        </li>
+    </ul>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 align="center">Coding Quiz Challenge</h1>
+
+                <h3 align="center">Try to answer the following code-related questions within the time limit. Keep in
+                    mind that incorrect answers will penalize your score/time by ten seconds!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="myBtn" id="start-button">Start Quiz!</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 id="q1" align="center"></h1>
+
+                <h3 id="choices1" align="center"></h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+
+</html>

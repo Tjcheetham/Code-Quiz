@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    width: 600px;
+}
+
+.myBtn {
+    background-color: springgreen;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.nav {
+    align-content;: space-between;
+}
+
+.nav-link {
+    align-content: space-between;
+}
