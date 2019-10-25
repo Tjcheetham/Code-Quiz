@@ -8,7 +8,7 @@ JavaScript - [Bootstrap](https://getbootstrap.com/) - CSS - HTML
 
 ### Screenshots
 
-![Screenshot](assets/images/2019-10-24 (2).png)
+![Screenshot](images/2019-10-24.png)
 
 ### Link
 Check it out!
