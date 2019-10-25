@@ -45,14 +45,26 @@ var question7 =
 
   
 document.getElementById("q1").innerText = question1.title1;
-document.getElementById("choices1").innerText = choiceOptions;
 
-var choices1List = document.getElementById("choices1");
+//attempting to get my array to generate as a list of questions
+    document.getElementById("choices1").innerText = choiceOptions;
 
+    var choices1List = document.getElementById("choices1");
+    //var $ul = document.createElement("ul");
+    
 
-for (var i = 0; i < choices1.length; i++) {
-var choiceOptions = choices1[i]
-var li = document.createElement("li");
-    li.textContent = choiceOptions;
-    choicesList.append(li);
-};
+    for (var i = 0; i < choices1.length; i++) {
+    var choiceOptions = choices1[i]
+    var li = document.createElement("li");
+        li.textContent = choiceOptions;
+        choicesList.append(li);
+    };
+
+    // for (var i=0; i<choices1.length; i++){
+    //     console.log(choices1[i]);
+        // var letterBtn = $("<button>");
+        // letterBtn.addClass("letter-button letter letter-button-color");
+        // letterBtn.attr("data-letter", letters[i]);
+        // letterBtn.text(letters[i]);
+        // $("#buttons").append(letterBtn);
+    //   }

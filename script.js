@@ -36,6 +36,7 @@ function startTimer(){
   }, 1000)
 };
 
+//toggling through show/hide of the first two containers
 startButton.addEventListener("click", function(){nextQuestion()});
 
 function nextQuestion() {
